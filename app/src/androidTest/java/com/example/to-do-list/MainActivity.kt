@@ -1,9 +1,8 @@
-package com.example.todolist
+package com.example.`to-do-list`
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.todolist.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var todoAdapter: TodoAdapter
